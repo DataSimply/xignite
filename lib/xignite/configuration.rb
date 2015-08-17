@@ -5,7 +5,7 @@ module Xignite
     def initialize
       self.endpoint = Xignite::URL
       self.request_method = :get
-      self.username = '2FC5FCEAFEFE40BEB75EF718E2069F47'
+      self.username = ENV['XIGNITE_USERNAME']
       self.https = true
     end
   end

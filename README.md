@@ -1,6 +1,9 @@
-[![Build Status](https://secure.travis-ci.org/heythisisnate/xignite.png)](http://travis-ci.org/heythisisnate/xignite)
+response = Xignite::Edgar.query_master_documents('IdentifierType' => 'Symbol', 'Identifier' => 'AAPL', 'Form' => '8-K', 'FromDate' => '8/19/2014', 'ToDate' => '9/19/2015', 'OwnershipForms' => 'Include')
+response.master_documents_result['documents']['master_document'][0]['Url']
 
 ### Xignite Ruby
+
+This gem relies on the system running it to set up XIGNITE_USERNAME environment variable.
 
 Xignite is a Ruby client library for the [Xignite Web Services API](http://xignite.com)
 
@@ -21,6 +24,7 @@ or with Bundler, simply add to your Gemfile:
 ## Basic Usage ##
 
 *Xignite Ruby* provides a rubyist's interface to the Xignite API. It constructs a GET or POST request for you, and then parses the response into Array and Hash-like Ruby objects. Reference the Xignite documentation for required parameters and options, then call the appropriate Web Service in one of two ways:
+
 
     # The following two statements do the same thing
     response = Xignite::Metals.get_last_real_time_metal_quote(

@@ -5,7 +5,9 @@ require 'tzinfo'
 require 'xignite/configuration'
 
 module Xignite
-  URL = 'factsetfundamentals.xignite.com' # 'financials.xignite.com' #'factsetfundamentals.xignite.com'
+  URL = 'www.xignite.com'
+
+
 
   DATE_FORMAT = '%m/%d/%Y'
   TIME_FORMAT = '%I:%M:%S %p'
@@ -26,6 +28,5 @@ require 'xignite/hash'
 require 'xignite/array'
 require 'xignite/service'
 
-# Financials
-require 'xignite/services/financials'
-require 'xignite/services/fact_set_fundamentals'
+require 'xignite/services/edgar'
+
