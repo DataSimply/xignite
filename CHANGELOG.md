@@ -1,3 +1,7 @@
+## 0.2.2 ##
+
+Add XigniteGlobalHistorical > GetGlobalLastClosingPrices endpoint.
+
 ## 0.2.1 ##
 
 Add XigniteGlobalMaster > GetMasterByExchange endpoint.

@@ -30,4 +30,4 @@ require 'xignite/service'
 
 require 'xignite/services/edgar'
 require 'xignite/services/global_master'
-
+require 'xignite/services/global_historical'
