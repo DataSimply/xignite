@@ -1,6 +1,6 @@
 ## 0.2.2 ##
 
-Add XigniteGlobalHistorical > GetGlobalLastClosingPrices endpoint.
+Add XigniteGlobalHistorical > GetEndOfDayQuotes endpoint.
 
 ## 0.2.1 ##
 

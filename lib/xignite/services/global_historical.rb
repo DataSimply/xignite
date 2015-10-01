@@ -2,11 +2,11 @@ module Xignite
   class GlobalHistorical < Service
 
     operations [
-      ['GetGlobalLastClosingPrices',                    {}]
+      ['GetEndOfDayQuotes',                    {}]
     ]
 
   end
 end
 
 # Example URL
-# http://www.xignite.com/xGlobalHistorical.xml/GetGlobalLastClosingPrices?IdentifierType=Symbol&Identifiers=AAPL,MSFT&AdjustmentMethod=None
+# http://www.xignite.com/xGlobalHistorical.xml/GetEndOfDayQuotes?IdentifierType=Symbol&Identifiers=AAPL,MSFT&AdjustmentMethod=SplitOnly&EndOfDayPriceMethod=LastTrade&AsOfDate=10/01/2015
