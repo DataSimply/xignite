@@ -5,7 +5,7 @@ require 'tzinfo'
 require 'xignite/configuration'
 
 module Xignite
-  URL = 'www.xignite.com'
+  URL = 'globalmaster.xignite.com'
 
 
 
@@ -29,4 +29,5 @@ require 'xignite/array'
 require 'xignite/service'
 
 require 'xignite/services/edgar'
-
+require 'xignite/services/global_master'
+require 'xignite/services/global_historical'
